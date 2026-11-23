@@ -1,19 +1,18 @@
 ---
 layout: default
 title: Contact
-description: Get in touch about go-to-market strategy and growth marketing for your startup.
+description: Get in touch with Albina Wrobel about go-to-market strategy and growth marketing for your startup.
 permalink: /contact/
 ---
 
 <p class="eyebrow">Contact</p>
 
-# Let's talk.
+# Let's <span class="hl">talk.</span>
 
-<p class="lede">Working on go-to-market for a tech startup? Questions about something I wrote? Reach out.</p>
+<p class="lede">Working on go-to-market for a tech startup? Questions about something I wrote? Email me. I read everything.</p>
 
 <div class="card">
   {% if site.booking_url != "" %}
-  <p><strong>The fastest way:</strong> book a call directly.</p>
   <p><a class="button" href="{{ site.booking_url }}">Book a call</a></p>
   {% endif %}
   <ul class="contact-list">
@@ -23,3 +22,5 @@ permalink: /contact/
     {% if site.github != "" %}<li><span>GitHub</span> <a href="https://github.com/{{ site.github }}">github.com/{{ site.github }}</a></li>{% endif %}
   </ul>
 </div>
+
+<p><a class="button" href="mailto:{{ site.author.email }}">Send me an email</a></p>

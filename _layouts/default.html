@@ -5,13 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
   {% feed_meta %}
+  <meta name="theme-color" content="#12161A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23ff5a36'/></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2312161A'/><rect x='26' y='22' width='20' height='56' rx='5' fill='%23C86D51'/><rect x='54' y='22' width='20' height='56' rx='5' fill='%237BA4B5'/></svg>">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap nav">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark"><i></i><i></i></span>{{ site.title }}</a>
       <nav>
         <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>About</a>
         <a href="{{ '/resources/' | relative_url }}"{% if page.url contains '/resources/' or page.url contains '/tools/' %} class="active"{% endif %}>Resources</a>
@@ -26,13 +30,15 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>© {{ site.time | date: '%Y' }} {{ site.author.name }} · Resources here are free and open source — use them, share them, improve them.</p>
+      <p class="big">Building a startup's go-to-market? <a href="mailto:{{ site.author.email }}">Say hi →</a></p>
+      <p>{{ site.author.email }}</p>
       <p class="links">
         {% if site.linkedin != "" %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
         {% if site.github != "" %}<a href="https://github.com/{{ site.github }}">GitHub</a>{% endif %}
         {% if site.twitter != "" %}<a href="https://x.com/{{ site.twitter }}">X</a>{% endif %}
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       </p>
+      <p>© {{ site.time | date: '%Y' }} {{ site.author.name }} · Everything here is free and open source. Use it, share it, improve it.</p>
     </div>
   </footer>
 </body>

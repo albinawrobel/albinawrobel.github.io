@@ -3,16 +3,15 @@ layout: default
 title: Home
 ---
 
+<section class="hero">
 <p class="eyebrow">{{ site.tagline }}</p>
-
-# Go-to-market without the guesswork.
-
-<p class="lede">I'm {{ site.author.name }}. I write free, open-source playbooks on growth marketing for tech startups — the traps founders fall into, how to spot them early, and simple tools to check your numbers.</p>
-
+<h1>Go-to-market <span class="hl">without the guesswork.</span></h1>
+<p class="lede">I'm {{ site.author.name }}. I write free, open-source playbooks on growth marketing for tech startups: the <span class="mark">traps founders fall into</span>, how to spot them early, and simple tools to check your numbers.</p>
 <div class="actions">
   <a class="button" href="{{ '/resources/' | relative_url }}">Browse resources</a>
-  <a class="button secondary" href="{{ '/contact/' | relative_url }}">Work with me</a>
+  <a class="button secondary" href="{{ '/about/' | relative_url }}">About me</a>
 </div>
+</section>
 
 ## Latest articles
 
