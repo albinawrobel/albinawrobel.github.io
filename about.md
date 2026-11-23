@@ -25,9 +25,7 @@ I spent two years studying astrophysics at York University.
 
 My latest venture was going back to growth marketing with local small businesses in my neighbourhood. Most of the owners were Gen X or boomers who, like my mom, weren't very tech-savvy. The goal was to build up their digital presence so they could take advantage of how the market had shifted.
 
-Communication was my biggest challenge. My clients didn't trust the digital market, and they didn't know enough about it to see what it could do for them. I could build a solid strategy, but if I couldn't explain it in their terms and earn their trust first, it never got off the ground.
-
-That taught me something I now build everything on: communication isn't a nice-to-have on top of the strategy. It's the foundation. If the people involved don't understand and believe in the plan, the plan doesn't exist.
+My biggest challenge there wasn't the marketing itself. It was communication. The common thread was a lack of trust in, and knowledge of, the digital market, and good strategy doesn't matter if your client doesn't trust it.
 
 ## What I'm doing now
 
