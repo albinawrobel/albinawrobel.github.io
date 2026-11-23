@@ -1,0 +1,107 @@
+---
+layout: default
+title: Marketing ROI & CAC Payback Calculator
+description: Plug in a campaign's spend and results to see ROI, customer acquisition cost, payback period and LTV:CAC — free, nothing to sign up for.
+permalink: /tools/roi-calculator/
+tool: true
+---
+
+<p class="eyebrow"><a href="/resources/">← Resources</a> · Free tool</p>
+
+<h1>Marketing ROI &amp; CAC Payback Calculator</h1>
+
+<p class="lede">Is that campaign actually paying for itself? Enter what you spent and what came back. Everything runs in your browser, and nothing is saved or sent anywhere.</p>
+
+<div class="card calc">
+  <div class="grid2">
+    <div>
+      <label for="spend">Total marketing spend <small>($)</small></label>
+      <input id="spend" type="number" min="0" step="any" value="10000">
+    </div>
+    <div>
+      <label for="customers">New customers acquired</label>
+      <input id="customers" type="number" min="0" step="any" value="40">
+    </div>
+    <div>
+      <label for="arpa">Monthly revenue per customer <small>($)</small></label>
+      <input id="arpa" type="number" min="0" step="any" value="99">
+    </div>
+    <div>
+      <label for="margin">Gross margin <small>(%)</small></label>
+      <input id="margin" type="number" min="0" max="100" step="any" value="80">
+    </div>
+    <div>
+      <label for="churn">Monthly churn <small>(% of customers lost per month)</small></label>
+      <input id="churn" type="number" min="0" max="100" step="any" value="4">
+    </div>
+    <div>
+      <label for="horizon">ROI time window <small>(months)</small></label>
+      <input id="horizon" type="number" min="1" step="1" value="12">
+    </div>
+  </div>
+
+  <div class="results">
+    <div class="stat"><div class="k">CAC</div><div class="v" id="r-cac">–</div></div>
+    <div class="stat"><div class="k">Payback</div><div class="v" id="r-payback">–</div></div>
+    <div class="stat"><div class="k">LTV</div><div class="v" id="r-ltv">–</div></div>
+    <div class="stat"><div class="k">LTV : CAC</div><div class="v" id="r-ratio">–</div></div>
+    <div class="stat"><div class="k" id="r-roi-label">ROI</div><div class="v" id="r-roi">–</div></div>
+  </div>
+  <p class="verdict" id="verdict"></p>
+</div>
+
+<h2>How it works</h2>
+<ul>
+  <li><strong>CAC</strong> (customer acquisition cost) = spend ÷ new customers.</li>
+  <li><strong>Payback</strong> = how many months of gross profit from a customer it takes to earn back their CAC.</li>
+  <li><strong>LTV</strong> (lifetime value) = monthly gross profit per customer ÷ monthly churn.</li>
+  <li><strong>ROI</strong> = gross profit from these customers over your time window, minus spend, divided by spend. Churn is taken into account month by month.</li>
+</ul>
+<p>Rules of thumb that many SaaS investors use: payback under 12 months and LTV:CAC of 3 or higher are healthy. These are starting points, not laws.</p>
+
+<script>
+(function () {
+  var ids = ["spend", "customers", "arpa", "margin", "churn", "horizon"];
+  var $ = function (id) { return document.getElementById(id); };
+  var money = function (n) {
+    if (!isFinite(n)) return "–";
+    return (n < 0 ? "-$" : "$") + Math.abs(n).toLocaleString(undefined, { maximumFractionDigits: 0 });
+  };
+
+  function calc() {
+    var v = {};
+    ids.forEach(function (id) { v[id] = parseFloat($(id).value); });
+    var spend = v.spend || 0, cust = v.customers || 0, arpa = v.arpa || 0;
+    var margin = (v.margin || 0) / 100, churn = (v.churn || 0) / 100;
+    var horizon = Math.max(1, Math.round(v.horizon || 1));
+
+    var cac = cust > 0 ? spend / cust : NaN;
+    var gpMonth = arpa * margin;
+    var payback = gpMonth > 0 ? cac / gpMonth : NaN;
+    var ltv = churn > 0 ? gpMonth / churn : Infinity;
+    var ratio = cac > 0 ? ltv / cac : NaN;
+
+    var retained = cust, profit = 0;
+    for (var m = 0; m < horizon; m++) { profit += retained * gpMonth; retained *= (1 - churn); }
+    var roi = spend > 0 ? (profit - spend) / spend : NaN;
+
+    $("r-cac").textContent = money(cac);
+    $("r-payback").textContent = isFinite(payback) ? payback.toFixed(1) + " mo" : "–";
+    $("r-ltv").textContent = ltv === Infinity ? "∞" : money(ltv);
+    $("r-ratio").textContent = ratio === Infinity ? "∞" : (isFinite(ratio) ? ratio.toFixed(1) + "x" : "–");
+    $("r-roi-label").textContent = "ROI (" + horizon + " mo)";
+    $("r-roi").textContent = isFinite(roi) ? Math.round(roi * 100) + "%" : "–";
+
+    var msg = "";
+    if (isFinite(payback) && isFinite(ratio)) {
+      if (payback <= 12 && ratio >= 3) msg = "✅ Healthy: you earn back acquisition cost within a year, and customers are worth 3x+ what they cost.";
+      else if (payback > 24 || ratio < 1) msg = "🚩 Warning: at these numbers, each new customer loses money. Look at price, churn or channel before scaling spend.";
+      else msg = "⚠️ Workable but tight. Improving churn or conversion would make scaling this channel much safer.";
+    }
+    $("verdict").textContent = msg;
+  }
+
+  ids.forEach(function (id) { $(id).addEventListener("input", calc); });
+  calc();
+})();
+</script>

@@ -1,0 +1,42 @@
+# ============================================================
+#  YOUR SITE SETTINGS — edit the lines marked with  <-- EDIT
+#  After saving, GitHub rebuilds your site in about a minute.
+# ============================================================
+
+title: "Your Name"                       # <-- EDIT: your full name (this is your brand)
+tagline: "Growth marketing & go-to-market for tech startups"   # <-- EDIT
+description: >-                          # <-- EDIT: 1–2 sentences. Google shows this in search results.
+  Free, open-source resources on growth marketing and go-to-market strategy
+  for tech startups — the common traps, how to avoid them, and simple tools
+  to run the numbers.
+
+url: "https://albinawrobel.github.io"   # Later, swap in your own domain.
+baseurl: ""
+
+author:
+  name: "Your Name"                      # <-- EDIT
+  email: "you@example.com"               # <-- EDIT: email shown on your contact page
+
+# Contact & social links. Leave a line as "" to hide it.
+booking_url: "https://cal.com/yourname"  # <-- EDIT: Cal.com or Calendly link
+phone: ""                                # optional — we suggest leaving this blank
+linkedin: "https://www.linkedin.com/in/yourname"   # <-- EDIT
+github: "albinawrobel"
+twitter: ""                              # optional, e.g. yourhandle (no @)
+
+# ---------- You can leave everything below alone ----------
+lang: en
+timezone: America/Toronto
+permalink: /resources/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+social:
+  name: "Your Name"
+exclude:
+  - README.md
+  - HOW-TO-EDIT.md

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="eyebrow"><a href="{{ '/resources/' | relative_url }}">← Resources</a></p>
+  <h1>{{ page.title }}</h1>
+  <p class="meta">{{ page.date | date: "%B %-d, %Y" }} · {{ site.author.name }}{% assign words = content | number_of_words %} · {{ words | divided_by: 220 | plus: 1 }} min read</p>
+  {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+  <div class="prose">
+    {{ content }}
+  </div>
+  <aside class="cta">
+    <p><strong>Working through this at your startup?</strong> I help early-stage teams build go-to-market that actually reaches buyers.</p>
+    <a class="button" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+  </aside>
+</article>
