@@ -55,7 +55,7 @@ h3 { font-size:23px; margin-top:32px; }
 
 /* ---------- hero ---------- */
 .hero { padding-bottom: 24px; }
-.hero h1 { font-size: clamp(40px, 7.4vw, 70px); }
+.hero h1 { font-size: clamp(46px, 10vw, 92px); }
 
 /* ---------- lists ---------- */
 .list { list-style:none; padding:0; margin:0; }
@@ -120,43 +120,3 @@ th, td { border-bottom:1px solid var(--line); padding:10px 12px; text-align:left
 .site-footer .links a { color:var(--blue); margin-right:16px; text-decoration:none; font-weight:600; }
 .site-footer .links a:hover { color:var(--paper); }
 .list .title-static { font-family:var(--display); font-weight:700; font-size:22px; letter-spacing:-0.02em; }
-
-/* ---------- home: services, timeline, belief ---------- */
-.services { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
-@media (max-width:600px) { .services { grid-template-columns:1fr; } }
-.service { background:var(--card); border:2px solid var(--ink); border-radius:14px; padding:20px 22px; }
-.service h3 { margin:0 0 6px; font-size:22px; }
-.service h3::before { content:""; display:inline-block; width:10px; height:10px; border-radius:3px; background:var(--rust); margin-right:10px; vertical-align:3px; }
-.service:nth-child(even) h3::before { background:var(--blue); }
-.service p { margin:0; color:var(--muted); font-size:16px; }
-.timeline { list-style:none; padding:0; margin:0; border-left:4px solid var(--ink); }
-.timeline li { position:relative; padding:0 0 26px 26px; }
-.timeline li:last-child { padding-bottom:0; }
-.timeline li::before { content:""; position:absolute; left:-12px; top:4px; width:20px; height:20px; border-radius:50%; background:var(--rust); border:3px solid var(--ink); }
-.timeline li:nth-child(even)::before { background:var(--blue); }
-.timeline .when { font-family:var(--mono); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
-.timeline p { margin:4px 0 0; }
-blockquote.belief { margin:56px 0 8px; padding:34px 30px; background:var(--ink); color:var(--paper); border-radius:18px; font-family:var(--display); font-size:clamp(30px,5vw,46px); font-weight:700; letter-spacing:-0.03em; line-height:1.1; border:0; }
-blockquote.belief::before { content:"“"; color:var(--rust); margin-right:4px; }
-blockquote.belief::after { content:"”"; color:var(--blue); margin-left:2px; }
-
-/* ---------- GTM loop graphic ---------- */
-.gtm { margin:8px 0 8px; padding:26px; background:var(--ink); color:var(--paper); border-radius:20px; }
-.gtm-label { font-family:var(--mono); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--blue); margin:0 0 16px; }
-.gtm-steps { display:grid; grid-template-columns:1fr auto 1fr auto 1fr; align-items:stretch; gap:10px; }
-.gtm-step { border-radius:14px; padding:18px; color:var(--ink); border:2px solid var(--paper); }
-.gtm-step.s1 { background:var(--paper); }
-.gtm-step.s2 { background:var(--rust); }
-.gtm-step.s3 { background:var(--blue); }
-.gtm-step .n { font-family:var(--mono); font-size:12px; font-weight:700; }
-.gtm-step h3 { margin:6px 0 6px; font-size:22px; }
-.gtm-step p { margin:0; font-size:15px; line-height:1.45; }
-.gtm-arrow { align-self:center; font-family:var(--display); font-size:30px; font-weight:700; color:var(--paper); }
-.gtm-return { margin-top:14px; border:2px dashed #5A6470; border-top:0; border-radius:0 0 14px 14px; height:28px; position:relative; margin-left:12%; margin-right:12%; }
-.gtm-return span { position:absolute; left:50%; bottom:-12px; transform:translateX(-50%); background:var(--ink); padding:0 12px; white-space:nowrap; font-family:var(--mono); font-size:13px; color:var(--paper); }
-@media (max-width:640px) {
-  .gtm-steps { grid-template-columns:1fr; }
-  .gtm-arrow { transform:rotate(90deg); justify-self:center; line-height:1; }
-  .gtm-return { border:0; height:auto; margin:16px 0 0; }
-  .gtm-return span { position:static; transform:none; white-space:normal; padding:0; display:block; text-align:center; }
-}

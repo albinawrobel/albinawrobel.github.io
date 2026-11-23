@@ -40,3 +40,4 @@ social:
 exclude:
   - README.md
   - HOW-TO-EDIT.md
+  - tools          # calculators are hidden for now; delete this line to bring them back

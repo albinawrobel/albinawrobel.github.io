@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Resources
-description: Free, open-source articles and calculators on growth marketing and go-to-market strategy for tech startups.
+description: Free, open-source articles on growth marketing and go-to-market strategy for tech startups, by Albina Wrobel.
 permalink: /resources/
 ---
 
 <p class="eyebrow">Resources</p>
 
-# Free playbooks & tools
+# Free <span class="hl">playbooks.</span>
 
 <p class="lede">Everything here is free and open source. Use it, share it, adapt it for your own team.</p>
 
@@ -22,14 +22,11 @@ permalink: /resources/
 {% endfor %}
 </ul>
 
-## Tools & calculators
+## Tools
 
 <ul class="list">
-{% assign tools = site.pages | where: "tool", true %}
-{% for t in tools %}
   <li>
-    <a class="title" href="{{ t.url | relative_url }}">{{ t.title }}</a> <span class="tag">calculator</span>
-    {% if t.description %}<p>{{ t.description }}</p>{% endif %}
+    <span class="title-static">Free GTM tools</span> <span class="tag">coming soon</span>
+    <p>Simple calculators and templates for checking your marketing numbers. In the works.</p>
   </li>
-{% endfor %}
 </ul>

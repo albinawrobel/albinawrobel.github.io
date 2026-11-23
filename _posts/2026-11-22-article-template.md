@@ -32,7 +32,3 @@ Normal paragraphs are just text. You can make **bold**, *italic*, and [links](ht
 <!-- Paste snippets for readers to copy -->
 <a href="https://example.com?utm_source=newsletter">Link</a>
 ```
-
-## Link to your tools
-
-Want to check your own numbers? Try the [Marketing ROI & CAC Payback calculator](/tools/roi-calculator/).
