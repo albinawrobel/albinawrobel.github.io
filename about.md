@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: Albina Wrobel is a growth marketer helping early-stage tech startups go to market. She started in growth marketing at 15.
+description: Albina Wrobel started growth marketing at 15, helping her mom's dog daycare reach six figures in its first year. Now she helps startups find their go-to-market.
 permalink: /about/
 ---
 
@@ -9,25 +9,35 @@ permalink: /about/
 
 # Hi, I'm <span class="hl">Albina.</span>
 
-<p class="lede">I've been doing growth marketing since I was 15. Now I help new tech startups figure out how to go to market.</p>
+<p class="lede">I'm a growth marketer who learned by doing. Now I help startups figure out their first go-to-market strategy.</p>
 
-<div class="facts">
-  <div class="fact"><div class="k">Started</div><div class="v">Growth marketing at 15</div></div>
-  <div class="fact"><div class="k">Studied</div><div class="v">Astrophysics, York University</div></div>
-  <div class="fact"><div class="k">Now</div><div class="v">Helping startups go to market</div></div>
-</div>
+## Where it started
 
-## How I got here
+When I was 15, my mom opened a dog daycare, right before COVID hit. Suddenly everything had to be digital, and my mom wasn't very tech-savvy, so I took over all of it, marketing included.
 
-I got into growth marketing at 15, during the pandemic, when everything suddenly went digital. I learned it the way most people in this field do: by doing it.
+I didn't know anything about marketing. I learned by doing. I reframed our business model, came up with a customer acquisition strategy and a customer retention strategy, and together they generated six figures in revenue in the first year. I stayed for a little over three years before shifting my focus to school.
 
-Then I took a break to study astrophysics at York University for two years. Now I'm taking a year off to get back into growth marketing full time and help new startups with going to market.
+## A detour through astrophysics
 
-## Why this site exists
+I spent two years studying astrophysics at York University.
 
-Most marketing mistakes I see at startups aren't new. They're the same few traps, repeated. I'm writing them down, openly and for free, so founders and new marketers can skip a few of them.
+## Back to growth marketing
+
+My latest venture was going back to growth marketing with local small businesses in my neighbourhood. Most of the owners were Gen X or boomers who, like my mom, weren't very tech-savvy. The goal was to build up their digital presence so they could take advantage of how the market had shifted.
+
+Communication was my biggest challenge. My clients didn't trust the digital market, and they didn't know enough about it to see what it could do for them. I could build a solid strategy, but if I couldn't explain it in their terms and earn their trust first, it never got off the ground.
+
+That taught me something I now build everything on: communication isn't a nice-to-have on top of the strategy. It's the foundation. If the people involved don't understand and believe in the plan, the plan doesn't exist.
+
+## What I'm doing now
+
+I'm taking a year off school to work with startups. I want to combine my experience building a business from the ground up with my ability to communicate with people from all kinds of backgrounds, and help young builders get real customer feedback from the market so they can keep perfecting their craft.
+
+Every business needs its own model. My job is to help you find yours.
+
+<blockquote class="belief">The best way to learn is by doing.</blockquote>
 
 <div class="actions">
-  <a class="button" href="{{ '/resources/' | relative_url }}">Read the resources</a>
-  <a class="button secondary" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+  <a class="button" href="{{ '/contact/' | relative_url }}">Let's talk</a>
+  <a class="button secondary" href="{{ '/resources/' | relative_url }}">Read the resources</a>
 </div>
