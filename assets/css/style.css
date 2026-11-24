@@ -139,3 +139,24 @@ th, td { border-bottom:1px solid var(--line); padding:10px 12px; text-align:left
 blockquote.belief { margin:56px 0 8px; padding:34px 30px; background:var(--ink); color:var(--paper); border-radius:18px; font-family:var(--display); font-size:clamp(30px,5vw,46px); font-weight:700; letter-spacing:-0.03em; line-height:1.1; border:0; }
 blockquote.belief::before { content:"“"; color:var(--rust); margin-right:4px; }
 blockquote.belief::after { content:"”"; color:var(--blue); margin-left:2px; }
+
+/* ---------- GTM loop graphic ---------- */
+.gtm { margin:8px 0 8px; padding:26px; background:var(--ink); color:var(--paper); border-radius:20px; }
+.gtm-label { font-family:var(--mono); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--blue); margin:0 0 16px; }
+.gtm-steps { display:grid; grid-template-columns:1fr auto 1fr auto 1fr; align-items:stretch; gap:10px; }
+.gtm-step { border-radius:14px; padding:18px; color:var(--ink); border:2px solid var(--paper); }
+.gtm-step.s1 { background:var(--paper); }
+.gtm-step.s2 { background:var(--rust); }
+.gtm-step.s3 { background:var(--blue); }
+.gtm-step .n { font-family:var(--mono); font-size:12px; font-weight:700; }
+.gtm-step h3 { margin:6px 0 6px; font-size:22px; }
+.gtm-step p { margin:0; font-size:15px; line-height:1.45; }
+.gtm-arrow { align-self:center; font-family:var(--display); font-size:30px; font-weight:700; color:var(--paper); }
+.gtm-return { margin-top:14px; border:2px dashed #5A6470; border-top:0; border-radius:0 0 14px 14px; height:28px; position:relative; margin-left:12%; margin-right:12%; }
+.gtm-return span { position:absolute; left:50%; bottom:-12px; transform:translateX(-50%); background:var(--ink); padding:0 12px; white-space:nowrap; font-family:var(--mono); font-size:13px; color:var(--paper); }
+@media (max-width:640px) {
+  .gtm-steps { grid-template-columns:1fr; }
+  .gtm-arrow { transform:rotate(90deg); justify-self:center; line-height:1; }
+  .gtm-return { border:0; height:auto; margin:16px 0 0; }
+  .gtm-return span { position:static; transform:none; white-space:normal; padding:0; display:block; text-align:center; }
+}

@@ -7,16 +7,18 @@ title: Home
 <p class="eyebrow">{{ site.author.name }} · Growth marketer</p>
 <h1>Every business needs its own model. <span class="hl">I help you find yours.</span></h1>
 <p class="lede">I work with startups on their first go-to-market strategy, and help young builders get real feedback from the market so they can keep perfecting their craft.</p>
-<div class="actions">
-  <a class="button" href="{{ '/contact/' | relative_url }}">Let's talk</a>
-  <a class="button secondary" href="{{ '/about/' | relative_url }}">My story</a>
-</div>
 </section>
 
-<div class="facts">
-  <div class="fact"><div class="k">Started at 15</div><div class="v">Ran marketing for a new dog daycare</div></div>
-  <div class="fact"><div class="k">Year one</div><div class="v">Six figures in revenue</div></div>
-  <div class="fact"><div class="k">How I work</div><div class="v">Learn by doing</div></div>
+<div class="gtm" role="img" aria-label="The go-to-market loop: build the product, go to market, get feedback, and repeat.">
+  <p class="gtm-label">The go-to-market loop</p>
+  <div class="gtm-steps">
+    <div class="gtm-step s1"><span class="n">01</span><h3>Build the product</h3><p>Make something for a real problem.</p></div>
+    <div class="gtm-arrow" aria-hidden="true">→</div>
+    <div class="gtm-step s2"><span class="n">02</span><h3>Go to market</h3><p>Put it in front of the right people.</p></div>
+    <div class="gtm-arrow" aria-hidden="true">→</div>
+    <div class="gtm-step s3"><span class="n">03</span><h3>Get feedback</h3><p>Learn what the market actually thinks.</p></div>
+  </div>
+  <div class="gtm-return" aria-hidden="true"><span>↺ Repeat. The feedback shapes what you build next.</span></div>
 </div>
 
 ## What I help with
@@ -33,7 +35,7 @@ title: Home
 <ol class="timeline">
   <li><span class="when">Age 15</span><p>My mom opened a dog daycare right before COVID hit. She wasn't very tech-savvy, so I took over everything digital, including marketing. I didn't know anything about marketing, so I learned by doing: I reframed our business model and built a customer acquisition and retention strategy that generated <strong>six figures in revenue in the first year</strong>. I stayed for over three years.</p></li>
   <li><span class="when">School</span><p>I shifted my focus to school and studied astrophysics at York University for two years.</p></li>
-  <li><span class="when">Local businesses</span><p>I went back to growth marketing with small businesses in my neighbourhood, helping owners who weren't digital natives build their online presence and catch up with how the market had shifted. The biggest lesson: the hard part is earning trust and communicating clearly, not the tactics.</p></li>
+  <li><span class="when">Local businesses</span><p>I went back to growth marketing with small businesses in my neighbourhood. Most of the owners were Gen X or boomers who, like my mom, weren't very tech-savvy. Communication was the hardest part: they didn't trust the digital market and didn't know enough about it to see what it could do for them, so even a great strategy went nowhere if I couldn't explain it in their terms. That's where I learned communication isn't extra. It's the foundation every strategy is built on.</p></li>
   <li><span class="when">Now</span><p>I'm taking a year to work with startups, combining what I learned building a business from the ground up with my ability to communicate with people from all kinds of backgrounds.</p></li>
 </ol>
 
