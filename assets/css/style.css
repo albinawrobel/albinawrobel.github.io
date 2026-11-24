@@ -160,3 +160,4 @@ blockquote.belief::after { content:"”"; color:var(--blue); margin-left:2px; }
   .gtm-return { border:0; height:auto; margin:16px 0 0; }
   .gtm-return span { position:static; transform:none; white-space:normal; padding:0; display:block; text-align:center; }
 }
+.email-line { font-size:20px; font-weight:600; margin-top:18px; }
