@@ -40,4 +40,5 @@ social:
 exclude:
   - README.md
   - HOW-TO-EDIT.md
+  - about.md       # About page removed; everything lives on the home page
   - tools          # calculators are hidden for now; delete this line to bring them back

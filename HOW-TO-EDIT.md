@@ -1,12 +1,12 @@
 # How to edit your site (no coding needed)
 
-Do everything on github.com in your `yourusername.github.io` repository. To edit a file, click it, then click the pencil icon. When you're done, click **Commit changes**. The live site updates in about 1–2 minutes.
+Do everything on github.com in your `albinawrobel.github.io` repository. To edit a file, click it, then click the pencil icon. When you're done, click **Commit changes**. The live site updates in about 1–2 minutes.
 
 ## Your details: `_config.yml`
 Your name, tagline, email, booking link and social links all live here. Change the lines marked `<-- EDIT`.
 
-## Your About page: `about.md`
-Rewrite the text under the headings. Lines starting with `#` are headings.
+## Your home page: `index.md`
+Your intro, the GTM loop, what you help with and your story all live here. Edit the text between the tags; leave the `<...>` parts alone.
 
 ## Write a new article
 1. Open the `_posts` folder.
