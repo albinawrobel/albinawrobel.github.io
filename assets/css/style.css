@@ -161,3 +161,11 @@ blockquote.belief::after { content:"”"; color:var(--blue); margin-left:2px; }
   .gtm-return span { position:static; transform:none; white-space:normal; padding:0; display:block; text-align:center; }
 }
 .email-line { font-size:20px; font-weight:600; margin-top:18px; }
+
+/* ---------- article figures & test card ---------- */
+.prose figure { margin:32px 0; }
+.prose figure img { display:block; width:100%; height:auto; border:2px solid var(--ink); border-radius:14px; background:#fff; }
+.prose figcaption { font-family:var(--mono); font-size:12px; color:var(--muted); margin-top:8px; text-align:center; }
+.test-card { background:var(--card); border:2px solid var(--ink); border-radius:18px; padding:4px 26px 12px; margin:32px 0; box-shadow:6px 6px 0 var(--rust); }
+.test-card h3 { margin-top:22px; }
+.test-card ol > li { margin-bottom:10px; }

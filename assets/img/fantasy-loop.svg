@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-label="Inside the loop there are opinions, not market data" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif">
+<rect width="760" height="260" fill="#FFFFFF"/>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#12161A"/></marker></defs>
+<text x="24" y="32" font-size="15" font-weight="700" fill="#12161A">Inside the loop there are opinions, not market data</text><rect x="24" y="52" width="496" height="184" rx="10" fill="#E9ECEF" stroke="#12161A" stroke-width="1.5"/>
+<text x="40" y="76" font-weight="700" fill="#12161A">The Fantasy Loop</text>
+<g fill="none" stroke="#12161A" stroke-width="1.5"><path d="M176.0 124H204.0" marker-end="url(#a1)"/><path d="M340.0 124H368.0" marker-end="url(#a1)"/><path d="M436 148.0V200H108V148.0" marker-end="url(#a1)"/></g>
+<rect x="40.0" y="100.0" width="136" height="48" rx="8" fill="#FFFFFF" stroke="#12161A" stroke-width="1.5"/><text x="108" y="128" text-anchor="middle" fill="#12161A">Your plan</text>
+<rect x="204.0" y="100.0" width="136" height="48" rx="8" fill="#FFFFFF" stroke="#12161A" stroke-width="1.5"/><text x="272" y="128" text-anchor="middle" fill="#12161A">Mentor feedback</text>
+<rect x="368.0" y="100.0" width="136" height="48" rx="8" fill="#FFFFFF" stroke="#12161A" stroke-width="1.5"/><text x="436" y="128" text-anchor="middle" fill="#12161A">Revision</text>
+<text x="272" y="192" text-anchor="middle" font-size="11.5" fill="#4E5862">repeat, version after version</text>
+<rect x="584" y="88" width="152" height="72" rx="10" fill="#C86D51" fill-opacity="0.18" stroke="#C86D51" stroke-width="2.5"/>
+<text x="660" y="118" text-anchor="middle" font-weight="700" fill="#12161A">Real buyers</text>
+<text x="660" y="138" text-anchor="middle" font-size="11.5" fill="#4E5862">never asked</text>
+<line x1="520" y1="124" x2="584" y2="124" stroke="#12161A" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="552" y="116" text-anchor="middle" font-size="11.5" fill="#4E5862">no data</text></svg>

@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: "Sample article: replace me with your first trap"
 description: "One sentence on what the reader will learn. This shows under the title, in your resources list, and often in Google results."
 ---
