@@ -1,70 +1,62 @@
 ---
 layout: post
 title: "Stop Asking Your Mentor. Ask the Market."
-description: "Polishing your plan through round after round of mentor feedback feels like progress. It isn't. Here's the Fantasy Loop trap, why founders fall into it, and how to put real buyers back in the loop."
+description: "Refining a plan with your mentor can make you feel more sure of it without making it any more proven. Why founders get stuck in the Fantasy Loop, and how to put real buyers back in it."
 ---
 
-## Nobody wanted it
+When I work with young founders, there's a pattern I keep running into. Someone builds a strategy, say a model for landing their first clients, and takes it to a mentor for feedback. The mentor has good notes, so the founder goes back, revises it and brings it in again, and after a few rounds the plan looks great and everyone feels good about it. The part that started to bother me is that through all of those rounds, not a single potential client has seen it. The founder and the mentor end up building a kind of fantasy world together, where the plan keeps getting better on paper without anyone checking it against the people it's supposed to win over.
 
-For over a decade, founders' own post-mortems have ranked "no market need" at or near the top of why their startups died. [CB Insights](https://fortune.com/2014/09/25/why-startups-fail-according-to-their-founders/) found 42% of 101 failed startups cited it. Their [newer analysis](https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/) of 111 still ranks it second at 35%, right behind running out of cash.
+That made me wonder how much this actually costs founders, so I went looking for what the research says. This led me to my hypothesis: the more rounds a founder spends refining a plan with a mentor before testing it on real buyers, the more confident they feel and the less they actually know.
 
-Read that again. The most common way to fail isn't a bad pitch. It's selling something nobody wanted, and only buyers can tell you whether that's you.
+## How often does "no market need" actually sink a startup?
 
-So here's the uncomfortable question: if your mentor has seen version five of your plan and no customer has seen version one, how would you know?
+The first thing I wanted to know was whether building something nobody wants is a real problem or just a scary story people like to tell. It turns out it's one of the most common reasons startups die, at least according to the founders themselves. [CB Insights](https://fortune.com/2014/09/25/why-startups-fail-according-to-their-founders/) collected post-mortems written by founders of failed startups, and in their analysis of 101 of them, 42% said there was no market need for what they built. When they ran a [newer analysis](https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/) of 111 post-mortems, it still ranked second at 35%, just behind running out of cash. These are founders explaining their own failures, so the numbers aren't perfect, but it's hard to look at them and not notice how often the problem was the idea itself rather than how well it was pitched. And the only people who can tell you whether your idea has that problem are the buyers.
 
-## The trap: the Fantasy Loop
+## What is the Fantasy Loop?
 
-**The Fantasy Loop** is refining your plan through round after round of mentor feedback without ever testing it on real buyers.
-
-- Every round makes the plan more polished. None of them makes it more true.
-- The loop is closed: plan, feedback, revision, feedback again.
-- The market, the only party that can say whether it works, sits outside it.
-- Inside the loop there are opinions about the market. There's no data from it.
+I've started calling the pattern from the beginning the Fantasy Loop, because the plan only ever gets tested inside the conversation between the founder and the mentor. It goes in a circle: the founder brings the plan, the mentor gives feedback, the founder revises it, and the next meeting starts the whole thing again. Each round really does make the plan more polished, and the founder usually learns something along the way, so it feels like progress. The catch is that the market, which is the only party that can actually say whether the plan works, never gets a seat in that circle. Inside the loop there are plenty of opinions about the market, but no data from it.
 
 <figure>
   <img src="/assets/img/fantasy-loop.svg" alt="The Fantasy Loop: your plan, mentor feedback and revision repeat in a closed box, while real buyers sit outside it, never asked.">
   <figcaption>The Fantasy Loop · three steps, no market contact</figcaption>
 </figure>
 
-Every arrow stays inside the box. Version six will feel better than version five. It won't be any more proven.
+If you follow the arrows in the diagram, you'll notice that none of them ever leave the box. That's why version six of a plan can feel a lot better than version five while being no more proven than it was before.
 
-## The proof: plans that skip the market break
+## What happens when a plan finally meets customers?
 
-- **The First Contact Rule.** [Steve Blank](https://steveblank.com/2010/04/08/no-plan-survives-first-contact-with-customers/), creator of the customer development method behind the Lean Startup movement, says it flatly: no business plan survives first contact with customers. He describes a team that spent four months on a 60-page plan. Within two weeks of talking to customers, at least half their key assumptions were wrong.
-- **The Scientist Advantage.** In a [randomized controlled trial](https://pubsonline.informs.org/doi/10.1287/mnsc.2018.3249) of 116 startups, Bocconi University researchers trained one group to treat ideas as hypotheses and test them on the market. That group performed better and pivoted more than founders running on intuition. A [replication across 759 firms](https://iris.polito.it/retrieve/handle/11583/2995828/775581) found testers also killed bad ideas faster.
-- **The Market-Need Graveyard.** That's the CB Insights data from the top. "No market need" isn't bad luck. It's an assumption that stayed untested for too long.
+[Steve Blank](https://steveblank.com/2010/04/08/no-plan-survives-first-contact-with-customers/), who created the customer development method that the Lean Startup movement grew out of, has a well-known line about this: no business plan survives first contact with customers. In that post he describes a team that spent four months putting together a 60-page business plan. Within two weeks of actually talking to customers, they found that at least half of their key assumptions were wrong. Four months of careful work held up for less than two weeks once real people got involved, and I think that says a lot about how far a plan can drift when the only people checking it are the ones who wrote it.
 
-Polishing a plan tells you nothing about whether it's right. Contact with buyers does.
+The research I found most convincing came from a group of researchers at Bocconi University, who ran a [randomized controlled trial](https://pubsonline.informs.org/doi/10.1287/mnsc.2018.3249) with 116 startups. They trained one group of founders to treat their ideas the way a scientist would, as hypotheses to test on the market, while the other group kept running on intuition. The founders who tested performed better, and they also pivoted more often, which makes sense when you think about it, because they were finding out sooner when something wasn't working. A later [replication across 759 firms](https://iris.polito.it/retrieve/handle/11583/2995828/775581) found something similar and added that the founders who tested also dropped bad ideas faster. To put it more simply: the founders who checked their ideas with real buyers found out what was wrong while it was still cheap to fix.
 
-## Why you keep doing it anyway
+## Why do so many founders stay in the loop anyway?
 
-This isn't laziness. It's your brain protecting you. Five forces keep you in the loop:
+Once I saw the evidence, the question I got more curious about was why so many smart founders stay in the loop anyway. It's hard to blame them, because when you look at what's going on in their heads, staying in the loop makes a lot of sense.
 
-- **Attribute Substitution.** [Daniel Kahneman](https://en.wikipedia.org/wiki/Attribute_substitution) showed that when a question is hard, your brain quietly answers an easier one instead. "Will strangers pay me?" is hard and scary. "Does my mentor like it?" is easy. Guess which one you're working on.
-- **Playing House.** [Paul Graham](https://paulgraham.com/before.html)'s name for founders who copy the rituals of a startup without the substance: polishing the deck, debating strategy, collecting advice. It's dangerous because it feels exactly like progress. You're busy, you're learning, and the plan keeps improving, so nothing tells you to stop. But none of it touches the one thing a startup has to prove: that someone will pay. Graham's point is that you don't need expertise in startups. You need expertise in your users, and you only get that from your users.
-- **Approval Seeking.** [Rob Fitzpatrick](https://www.momtestbook.com/), author of *The Mom Test*, says founders fish for compliments because they crave approval from people they respect. "This is really coming together" feels like validation. It isn't. An opinion is not a sale, and it is not data. You can't build growth on approval. You can only build it on people who actually buy.
-- **Authority Bias.** People give extra weight to advice from someone with status and experience. When your mentor signs off, the risk feels gone. It isn't. You've just shared it with someone who hasn't tested it either.
-- **Rejection Avoidance.** Every revision delays the moment a real person can say no. A plan that never leaves the loop can't fail. It can't succeed either.
+Part of it is how our brains handle hard questions. [Daniel Kahneman](https://en.wikipedia.org/wiki/Attribute_substitution) described something called attribute substitution, where, faced with a difficult question, we quietly answer an easier one instead without noticing we've made the swap. "Will strangers actually pay me for this?" is a hard and pretty scary question. "Does my mentor like it?" is much easier, and it feels close enough that it's easy to treat one as the answer to the other.
 
-**The bottom line:** none of these forces make your plan better. They only make it feel safer. Until a buyer has said yes or no, your plan is a guess, no matter how many times it has been reviewed.
+[Paul Graham](https://paulgraham.com/before.html) has a name for a related habit, which he calls playing house: copying the rituals of a startup without the substance. Polishing the deck, debating strategy and collecting advice all look like startup work, and that's exactly why it's so easy to get stuck there, because you're busy and the plan keeps improving, so nothing tells you to stop. But none of it touches the one thing a startup actually has to prove, which is that someone will pay. Graham's point is that you don't need to be an expert in startups; you need to be an expert in your users, and the only place to get that is from your users.
 
-## The two blind spots no mentor can fix
+Then there's the very human part. [Rob Fitzpatrick](https://www.momtestbook.com/), who wrote *The Mom Test*, says founders fish for compliments because they want approval from people they respect, and a mentor is usually exactly that kind of person. Hearing "this is really coming together" feels like validation, but an opinion is still an opinion, and you can grow a business only on people who actually buy. On top of that, we tend to give extra weight to advice from someone with status and experience, which is known as authority bias. So when a mentor signs off on a plan, the risk can feel like it's gone, when really it's just been shared with someone who hasn't tested it either.
 
-Even a great mentor is flying blind in this loop.
+It's also hard to ignore the simple fact that nobody likes hearing no. Every time a founder revises the plan instead of testing it, they push back the moment a real buyer could turn them down. That feels safe in the moment, but it also means the plan never gets the chance to succeed, because the only people who can say yes are the ones it's being kept away from. What all of these have in common is that they make a plan feel safer without making it any more likely to work, and until a buyer has actually said yes or no, the plan is still a guess no matter how many times it's been reviewed.
 
-- **The Unverifiable Advice Problem.** You don't know your market well enough yet to judge whether your mentor's advice fits it. Their experience comes from ***their*** markets, ***their*** customers, ***their*** timing. Not yours. Without data, you can't tell good advice from advice that just sounds confident.
-- **The Telephone Game.** Your mentor only sees your market through you. You filter what you report: what you noticed, what you remembered, what you hoped. They advise on that filtered version, and your next summary carries both sets of assumptions. Every round, the plan drifts further from the real buyer.
+## Can a mentor even tell whether their advice fits your market?
+
+I want to be fair to mentors here, because most of them are giving the best advice they can. The issue is that inside the loop, even a great mentor is working with very limited information. Their experience comes from the markets and customers they've worked with, at the time they worked with them, and those might be very different from yours. Early on, you usually don't know your own market well enough to judge whether their advice fits it either, so it's hard to tell good advice apart from advice that just sounds confident.
+
+There's a second problem that I think is easy to miss. Your mentor only ever sees your market through you, and you can't help filtering what you tell them through what you happened to notice and what you were hoping to hear. They give advice based on that filtered version, and then your next update carries both your assumptions and theirs. It works a bit like the telephone game, where the message drifts a little further from where it started every round, and in this case it drifts further away from the real buyer.
 
 <figure>
   <img src="/assets/img/telephone-game.svg" alt="The telephone game: real buyers, then your summary, then your mentor's advice, then the next revision, looping back to your summary and never back to the buyer.">
   <figcaption>The telephone game · how bias compounds each round</figcaption>
 </figure>
 
-- **Mentor Whiplash.** Accelerators like Techstars already have a name for experienced mentors giving a founder conflicting advice ([Brad Feld](https://feld.com/page/11/?s=mentors)). If smart people can disagree about your plan, more opinions won't settle it. Only buyers can.
+Accelerators have noticed a version of this too. [Brad Feld](https://feld.com/page/11/?s=mentors) has written about what Techstars calls mentor whiplash, which is when several experienced mentors give a founder conflicting advice about the same plan. If smart, experienced people can disagree about your plan, adding more opinions probably won't settle it, and the best way to find out who's right is to ask the people you're trying to sell to.
 
-## The fix: put buyers inside the loop
+## So what should a founder do instead?
 
-Keep your mentor. Change what you bring them. Before your next meeting, run one test with real buyers.
+None of this means you should drop your mentor. What I'd suggest is changing what you bring to them: before your next meeting, run one small test with real buyers and bring the results with you. That way the loop finally includes the market, and the diagram below shows what that looks like.
 
 <figure>
   <img src="/assets/img/market-loop.svg" alt="The market loop: your plan as a hypothesis, then a test with buyers, then real results, then your mentor reviews the raw data, and the next round starts from real data.">
@@ -73,37 +65,35 @@ Keep your mentor. Change what you bring them. Before your next meeting, run one 
 
 <div class="test-card" markdown="1">
 
-### The Market Test Card
+### A simple card for your first market test
 
-Copy this. Fill in every line before you send a single message.
+To make this easier, I put together a short card you can fill in before you reach out to anyone. This is one of the few places where a list really helps, since each line is a decision you need to make before the test starts.
 
 1. **I believe** [specific buyer] will [specific action] because [reason].
 2. **My test**, matched to how my buyer actually buys:
    - Software or app: a landing page or demo video with a signup
    - Physical product or e-commerce: list it before you stock it, and fill the first orders by hand
    - Services to businesses: direct outreach to 20 to 30 ideal clients
-3. **What counts as a yes:** a commitment, not a compliment. Money, time, a signup, a booked call. "I'd totally buy that" is not a yes. That's [Fitzpatrick](https://www.momtestbook.com/)'s core rule: compliments are worthless, commitments are evidence.
+3. **What counts as a yes:** a commitment rather than a compliment, like money, time, a signup or a booked call. Someone saying "I'd totally buy that" doesn't count, and that's [Fitzpatrick](https://www.momtestbook.com/)'s core rule: compliments don't tell you much, but commitments are evidence.
 4. **I'm right if** [number] happens by [date].
-5. **I'm wrong if** [number] by [date]. Then I'll [change one thing, or kill it].
-6. **What I bring my mentor:** the raw replies, objections word for word, and the numbers. Not my summary.
+5. **I'm wrong if** [number] by [date], and if that happens, I'll [change one thing, or drop the idea].
+6. **What I bring my mentor:** the raw replies, objections word for word, and the numbers, rather than my own summary of them.
 
 </div>
 
-This works at any size. Dropbox posted a demo video before the product was public, and its waitlist jumped from 5,000 to 75,000 overnight ([TechCrunch](https://techcrunch.com/2011/10/19/dropbox-minimal-viable-product/)). Zappos's founder photographed shoes in local stores and listed them online, buying each pair only after someone ordered it ([ICMR](https://www.icmrindia.org/Casestudies/catalogue/Human%20Resource%20and%20Organization%20Behavior/Holacracy%20at%20Zapposs-Case%20Study.htm)). Both proved demand before building anything.
+This works at any size, too. Before Dropbox was public, the team posted a demo video, and its waitlist jumped from 5,000 to 75,000 people overnight ([TechCrunch](https://techcrunch.com/2011/10/19/dropbox-minimal-viable-product/)). Zappos's founder took photos of shoes in local stores and listed them online, and he only bought each pair after someone had ordered it ([ICMR](https://www.icmrindia.org/Casestudies/catalogue/Human%20Resource%20and%20Organization%20Behavior/Holacracy%20at%20Zapposs-Case%20Study.htm)). Both of them found out that people wanted what they were offering before they spent real money building it.
 
-## Where your mentor actually earns their keep
+## Where does the mentor fit in?
 
-Mentors aren't the problem. Mentors without data are.
+Once you have real data, this is where a mentor becomes really valuable. Instead of asking "Does this sound good?", you can say "Here's what 30 buyers did, what am I missing?", and that changes the whole conversation. Their experience now goes toward interpreting what the market told you rather than guessing at what it might say, and I think that's where it's worth the most. It's also worth knowing that even Fitzpatrick makes an exception for experts who have built very similar businesses, since their instincts are much closer to real market data. So if your mentor has done almost exactly what you're doing, their opinion deserves more weight, though I'd still test it.
 
-- Bring raw evidence, not your interpretation of it.
-- Stop asking "Does this sound good?" Ask "Here's what 30 buyers did. What am I missing?"
-- Now their experience interprets the market instead of guessing at it. That's where it's worth the most. Even Fitzpatrick makes an exception for experts who have built very similar businesses.
+## So what?
 
-## The bottom line
+My hypothesis mostly held up: refining a plan with a mentor can make a founder feel more sure of it without making it any more proven. That matters because every round spent polishing an untested plan is time you could have spent finding out whether anyone wants it, and that's the question that sinks the most startups. If I had to boil this down for a young founder, here's what I'd want them to take away:
 
-- **Mentors check logic. Markets check reality.**
-- **Every revision without data adds bias.**
-- **Advice multiplies data. It can't replace it.**
+- A plan that only you and your mentor have reviewed is still a guess, no matter how polished it looks.
+- Before your next mentor meeting, run one small test with real buyers, and count commitments like money, signups or booked calls rather than compliments.
+- Bring your mentor the raw results instead of your summary, because that's when their experience is most useful.
 
 ## Sources
 
