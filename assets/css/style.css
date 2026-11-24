@@ -175,3 +175,6 @@ blockquote.belief::after { content:"”"; color:var(--blue); margin-left:2px; }
 .post .lede { font-size:18px; color:var(--ink); font-family:var(--sans); max-width:none; }
 .prose a { color:#A9502F; text-decoration:none; font-weight:600; }
 .prose a:hover { text-decoration:underline; text-decoration-color:#A9502F; }
+
+/* article summaries (SEO description) in italics */
+.post .lede, .list p { font-style: italic; }
