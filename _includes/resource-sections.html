@@ -1,0 +1,9 @@
+{%- comment -%}
+  Sorts everything into guides, articles and tools.
+  Guides:   posts with  type: guide  at the top.
+  Articles: every other post.
+  Tools:    pages with  tool: true  at the top.
+{%- endcomment -%}
+{%- assign guides = site.posts | where: "type", "guide" -%}
+{%- assign articles = site.posts | where_exp: "p", "p.type != 'guide'" -%}
+{%- assign tools = site.pages | where: "tool", true | sort: "title" -%}

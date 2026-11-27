@@ -25,6 +25,25 @@ description: "One sentence summary. Shows in Google results."
 
 5. Commit. The article appears on your Home and Resources pages automatically.
 
+## Write a new guide
+Guides are short, step-by-step pieces (under about 5 minutes). Make one exactly like an article, in the `_posts` folder, but add `type: guide` to the top:
+
+```
+---
+layout: post
+type: guide
+title: "Your headline here"
+description: "One sentence summary. Shows in Google results."
+---
+```
+
+It shows under **Guides** on the Resources page instead of Articles.
+
+## How the Resources page fills itself
+- Each section (Guides, Articles, Tools) shows your 3 newest pieces.
+- Once a section has more than 3, an "Explore all →" link appears that opens the full list (`/resources/guides/`, `/resources/articles/`, `/resources/tools/`).
+- A section with nothing in it shows a "coming soon" card.
+
 Delete the sample article (`_posts/2026-11-22-article-template.md`) once you've published a real one.
 
 ## Add a new calculator or tool

@@ -41,8 +41,9 @@ layout: default
 
 ## Latest articles
 
+{% assign latest_articles = site.posts | where_exp: "p", "p.type != 'guide'" %}
 <ul class="list">
-{% for post in site.posts limit:3 %}
+{% for post in latest_articles limit:3 %}
   <li>
     <a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a> <time>{{ post.date | date: "%b %-d, %Y" }}</time>
     {% if post.description %}<p>{{ post.description }}</p>{% endif %}
