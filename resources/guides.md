@@ -2,6 +2,8 @@
 layout: default
 title: Guides
 description: Short, step-by-step go-to-market guides for startups by Albina Wrobel. Free and open source.
+noindex: true   # delete this line and the next when the first one goes up
+sitemap: false
 permalink: /resources/guides/
 ---
 

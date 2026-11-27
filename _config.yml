@@ -40,6 +40,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/share.png   # the preview picture when a link is shared
 social:
   name: "Albina Wrobel"
 exclude:
