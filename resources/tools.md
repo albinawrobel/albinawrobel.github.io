@@ -2,8 +2,6 @@
 layout: default
 title: Tools
 description: Free calculators and templates for checking your startup's marketing numbers, by Albina Wrobel.
-noindex: true   # delete this line and the next when the first one goes up
-sitemap: false
 permalink: /resources/tools/
 ---
 

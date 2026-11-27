@@ -192,3 +192,34 @@ blockquote.belief::after { content:"”"; color:var(--green-light); margin-left:
 .back a { color:var(--purple); text-decoration:none; font-weight:600; }
 .back a:hover { text-decoration:underline; }
 .tag { white-space:nowrap; }
+
+/* ---------- product vs GTM self-test ---------- */
+.quiz { scroll-margin-top: 20px; }
+.quiz [hidden] { display:none !important; }
+.q-progress { height:8px; background:var(--line); border-radius:99px; overflow:hidden; }
+.q-progress span { display:block; height:100%; width:0; background:var(--green); transition: width .2s; }
+.q-count { font-family:var(--mono); font-size:13px; color:var(--muted); margin:14px 0 0; }
+.q-text { font-size: clamp(24px, 3.6vw, 30px); margin:8px 0 22px; outline:none; }
+.q-options { display:grid; gap:12px; }
+.q-option { font:inherit; font-size:17px; font-weight:600; text-align:left; padding:14px 18px; background:var(--paper); color:var(--ink); border:2px solid var(--ink); border-radius:12px; cursor:pointer; transition: transform .12s, box-shadow .12s; }
+.q-option:hover { transform: translate(-2px,-2px); box-shadow: 4px 4px 0 var(--ink); }
+.q-option:focus-visible { outline:3px solid var(--purple); outline-offset:2px; }
+.q-option.selected { background:var(--purple); color:var(--paper); }
+.q-nav { margin:18px 0 0; }
+.q-back { font:inherit; font-size:15px; font-weight:600; color:var(--purple); background:none; border:0; padding:0; cursor:pointer; }
+.q-back:hover { text-decoration:underline; }
+.r-title { margin-top:0; outline:none; }
+.r-meters { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:26px 0; }
+@media (max-width:560px) { .r-meters { grid-template-columns:1fr; } }
+.r-label { font-weight:700; font-size:15px; margin:0 0 6px; display:flex; justify-content:space-between; }
+.r-label span { font-family:var(--mono); font-weight:400; color:var(--muted); }
+.r-track { height:14px; background:var(--line); border-radius:99px; overflow:hidden; border:2px solid var(--ink); }
+.r-fill { display:block; height:100%; width:0; transition: width .4s; }
+.r-fill.p { background:var(--purple); }
+.r-fill.g { background:var(--green); }
+.r-cta-text { font-weight:600; margin-bottom:0; }
+.r-extra { font-size:16px; margin-top:18px; }
+.r-extra a { color:var(--purple); text-decoration:none; font-weight:600; }
+.r-extra a:hover { text-decoration:underline; }
+button.button { font:inherit; font-size:16px; font-weight:700; cursor:pointer; }
+.q-disclaimer { font-size:15px; color:var(--muted); font-style:italic; }

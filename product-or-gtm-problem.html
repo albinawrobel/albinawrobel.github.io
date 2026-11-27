@@ -1,0 +1,223 @@
+---
+layout: default
+title: "Do I Have a Product or GTM Problem?"
+description: "Not getting traction? Answer 10 quick questions to see if your startup has a product problem, a go-to-market problem, or both."
+permalink: /resources/product-or-gtm-problem/
+tool: true
+---
+
+<p class="back"><a href="{{ '/resources/' | relative_url }}">← Resources</a></p>
+
+<h1>Is it a product problem or a GTM problem?</h1>
+
+<p class="lede">An empty restaurant always leaves you with the same question: is the food bad, or does nobody know it's there? Your startup works the same way. Answer 10 quick questions and you'll see which one you're most likely dealing with.</p>
+
+<div class="card quiz" id="quiz">
+
+  <div id="q-start">
+    <p>Each question is about what people actually do, not what they say, so answer with what's happened so far rather than what you hope will happen. It takes about two minutes, and everything runs in your browser; nothing is saved or sent anywhere.</p>
+    <div class="actions"><button class="button" type="button" id="start">Start the test</button></div>
+  </div>
+
+  <div id="q-ask" hidden>
+    <div class="q-progress" aria-hidden="true"><span id="q-bar"></span></div>
+    <p class="q-count" id="q-count"></p>
+    <h2 class="q-text" id="q-text" tabindex="-1"></h2>
+    <div class="q-options" id="q-options" role="group" aria-labelledby="q-text"></div>
+    <p class="q-nav"><button type="button" class="q-back" id="q-back">← Back</button></p>
+  </div>
+
+  <div id="q-result" hidden>
+    <h2 class="r-title" id="r-title" tabindex="-1"></h2>
+    <div id="r-body"></div>
+
+    <div class="r-meters">
+      <div class="r-meter">
+        <p class="r-label">Product signal <span id="m-p-v"></span></p>
+        <div class="r-track"><span class="r-fill p" id="m-p"></span></div>
+      </div>
+      <div class="r-meter">
+        <p class="r-label">GTM signal <span id="m-g-v"></span></p>
+        <div class="r-track"><span class="r-fill g" id="m-g"></span></div>
+      </div>
+    </div>
+
+    <p class="r-cta-text" id="r-cta-text"></p>
+    <div class="actions">
+      <a class="button" id="r-cta" href="https://calendar.app.google/g2ttvPG2wvmBxpqDA" target="_blank" rel="noopener">Book a free call</a>
+      <button class="button secondary" type="button" id="retake">Retake the test</button>
+    </div>
+    <p class="r-extra" id="r-extra"></p>
+  </div>
+
+</div>
+
+<p class="q-disclaimer">This is a general test, so your scores aren't a 100% reflection of your startup. Every business has its own model, and the real answer usually depends on details a quiz can't see.</p>
+
+<script>
+(function () {
+  var YES = ["Yes", "Kind of", "No", "Not sure"];
+  // side: "p" = product signal, "g" = GTM signal, "t" = tiebreaker
+  // scores line up with the options; null = "not sure"
+  var questions = [
+    { side: "p", text: "Of the people who tried it, how many came back without you reminding them?",
+      options: ["Most of them", "Some of them", "Hardly any", "Not sure"], scores: [2, 1, 0, null] },
+    { side: "p", text: "If you shut it down tomorrow, would anyone message you upset?", options: YES, scores: [2, 1, 0, null] },
+    { side: "p", text: "Has anyone recommended it without being asked?", options: YES, scores: [2, 1, 0, null] },
+    { side: "p", text: "Can new users get to the main thing it does without you walking them through it?", options: YES, scores: [2, 1, 0, null] },
+    { side: "p", text: "When people stop using it, do you know why?", options: YES, scores: [2, 1, 0, null] },
+    { side: "g", text: "Can you describe your customer in one sentence a stranger could use to find them?", options: YES, scores: [2, 1, 0, null] },
+    { side: "g", text: "Roughly how many people in that group have actually seen it?",
+      options: ["Under 20", "20–100", "100+", "Not sure"], scores: [0, 1, 2, null] },
+    { side: "g", text: "When someone in your target hears your one-line pitch, do they get it without follow-up questions?", options: YES, scores: [2, 1, 0, null] },
+    { side: "g", text: "Have you properly tested at least one channel, beyond posting once and hoping?", options: YES, scores: [2, 1, 0, null] },
+    { side: "t", text: "Do the users who fit your target stick around better than everyone else?",
+      options: ["Yes", "About the same", "No", "Not sure"], scores: [2, 1, 0, null] }
+  ];
+
+  var guide = { href: "{{ '/resources/how-to-get-first-10-users/' | relative_url }}", label: "How to Get Your First 10 Users" };
+  var article = { href: "{{ '/resources/mentor-feedback-stalls-startup/' | relative_url }}", label: "How Too Much Mentor Feedback Stalls Your Startup" };
+
+  var results = {
+    gtm: {
+      title: "Probably a GTM problem.",
+      body: [
+        "The food is good; people just can't find the restaurant. The people who try your product seem to stick around, which is the hardest part to fake, but not enough of the right people are walking through the door. That usually means your target, your message or your channel needs work.",
+        "The good news is that those are a lot faster to fix than a product. The tricky part is knowing which of the three is actually broken, because fixing the wrong one just means a nicer sign on a street nobody walks down."
+      ],
+      direct: true, extra: guide
+    },
+    product: {
+      title: "Probably a product problem.",
+      body: [
+        "People are finding the restaurant, but they aren't coming back for a second meal. Your targeting and message seem to be doing their job, so more marketing would likely just bring more people in to have the same meal and leave.",
+        "Most of the time, the fix starts with the people who left. Find out what they expected that they didn't get before you spend another dollar on getting people through the door."
+      ],
+      direct: false, extra: article
+    },
+    both: {
+      title: "Probably both.",
+      body: [
+        "Not many people are finding the restaurant, and the ones who do aren't coming back. I know, not the result you were hoping for; however, it's really common at this stage, and it's fixable if you go in the right order.",
+        "Fix the food first, because a bigger crowd at a restaurant people don't come back to just means more people who tried it once and won't again. Once the people who do come in start returning, that's your signal to work on the front door."
+      ],
+      direct: true, extra: null
+    },
+    depends: {
+      title: "Honestly, it depends.",
+      body: [
+        "Your answers point in a few directions at once, which usually means the problem is hiding in the details. Maybe the food is great for one table and wrong for the rest, or the sign out front is pulling in people who were looking for a different restaurant.",
+        "A quiz can't see those details, but a conversation can, and that's the part I'd want to dig into with you."
+      ],
+      direct: true, extra: null
+    },
+    data: {
+      title: "Not enough data yet.",
+      body: [
+        "You answered “not sure” to a lot of these, which is a result in itself; it's hard to know if the food is good when only a handful of people have eaten it.",
+        "Before you change the product or the marketing, get it in front of more of the right people and watch what they actually do. That's what turns this from a guess into a diagnosis."
+      ],
+      direct: false, extra: guide
+    }
+  };
+
+  var answers = [];
+  var i = 0;
+  var $ = function (id) { return document.getElementById(id); };
+
+  function show(id) {
+    ["q-start", "q-ask", "q-result"].forEach(function (s) { $(s).hidden = (s !== id); });
+  }
+
+  function render() {
+    var q = questions[i];
+    $("q-count").textContent = "Question " + (i + 1) + " of " + questions.length;
+    $("q-bar").style.width = (i / questions.length * 100) + "%";
+    $("q-text").textContent = q.text;
+    var box = $("q-options");
+    box.innerHTML = "";
+    q.options.forEach(function (label, k) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "q-option" + (answers[i] === k ? " selected" : "");
+      b.textContent = label;
+      b.addEventListener("click", function () { pick(k); });
+      box.appendChild(b);
+    });
+    $("q-back").style.visibility = i === 0 ? "hidden" : "visible";
+    $("q-text").focus({ preventScroll: true });
+  }
+
+  function pick(k) {
+    answers[i] = k;
+    if (i < questions.length - 1) { i++; render(); }
+    else { finish(); }
+  }
+
+  function ratio(side) {
+    var got = 0, max = 0;
+    questions.forEach(function (q, k) {
+      if (q.side !== side) return;
+      var s = q.scores[answers[k]];
+      if (s !== null) { got += s; max += 2; }
+    });
+    return max ? got / max : 0;
+  }
+
+  function finish() {
+    var unknown = 0;
+    questions.forEach(function (q, k) { if (q.scores[answers[k]] === null) unknown++; });
+
+    var p = ratio("p"), g = ratio("g");
+    // Tiebreaker: if users who fit the target stick around better, the product works
+    // and the wrong people are coming in. If they don't, it leans toward product.
+    var t = questions[9].scores[answers[9]];
+    if (t === 2) { p += 0.1; g -= 0.1; }
+    if (t === 0) { p -= 0.1; }
+    p = Math.max(0, Math.min(1, p));
+    g = Math.max(0, Math.min(1, g));
+
+    var STRONG = 0.65, WEAK = 0.45, key;
+    if (unknown >= 4) key = "data";
+    else if (p >= STRONG && g < WEAK) key = "gtm";
+    else if (p < WEAK && g >= STRONG) key = "product";
+    else if (p < WEAK && g < WEAK) key = "both";
+    else key = "depends";
+
+    var r = results[key];
+    $("r-title").textContent = r.title;
+    var body = r.body.map(function (t) { return "<p>" + t + "</p>"; }).join("");
+    if (answers[6] === 0 && key !== "data") {
+      body += "<p>One more thing: fewer than 20 people in your target have seen it, so treat this as an early read rather than a verdict.</p>";
+    }
+    $("r-body").innerHTML = body;
+
+    $("m-p").style.width = Math.round(p * 100) + "%";
+    $("m-g").style.width = Math.round(g * 100) + "%";
+    $("m-p-v").textContent = Math.round(p * 100) + "%";
+    $("m-g-v").textContent = Math.round(g * 100) + "%";
+
+    if (r.direct) {
+      $("r-cta-text").textContent = "This is exactly what a 15-minute call is for. Tell me what you're building, and we'll figure out where to start.";
+      $("r-cta").textContent = "Book a free 15-min call";
+    } else {
+      $("r-cta-text").textContent = "Want a stronger answer? Book a call and we'll verify it together with the details a quiz can't see.";
+      $("r-cta").textContent = "Book a call to verify";
+    }
+
+    var extra = $("r-extra");
+    if (r.extra) {
+      extra.innerHTML = 'Or start with the free ' + (r.extra === guide ? "guide" : "article") + ': <a href="' + r.extra.href + '">' + r.extra.label + '</a>';
+      extra.hidden = false;
+    } else { extra.hidden = true; }
+
+    show("q-result");
+    $("r-title").focus({ preventScroll: true });
+    $("quiz").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  $("start").addEventListener("click", function () { i = 0; answers = []; show("q-ask"); render(); });
+  $("q-back").addEventListener("click", function () { if (i > 0) { i--; render(); } });
+  $("retake").addEventListener("click", function () { i = 0; answers = []; show("q-ask"); render(); });
+})();
+</script>
