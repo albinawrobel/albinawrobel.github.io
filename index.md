@@ -3,9 +3,15 @@ layout: default
 ---
 
 <section class="hero">
-<h1>Every business needs its own model. I help you find yours.</h1>
-<p class="lede">I work with startups on their first go-to-market strategy, and help young builders get real feedback from the market so they can keep perfecting their craft.</p>
+<h1>Every business needs its own marketing model. I help you find yours.</h1>
+<p class="lede">I help new founders take what they've built to market, so they can find out what real people actually think of it and keep building from there.</p>
 </section>
+
+## Why I do this
+
+I started marketing at 15 with no idea what I was doing, and I learned by doing it with real customers. Most young founders I meet are in that same spot, but they're expected to show up with traction and a polished plan before anyone takes them seriously. I think that's backwards; feedback from the market is how you get traction, not something you're supposed to have before you start.
+
+What I want is to help people who are building cool things get them in front of the right people. That's why the playbook on this site is free and open source, so you can read it, share it, remix it or post it on social media. Hands-on help is there when you want someone in your corner for the parts a guide can't cover.
 
 <div class="gtm" role="img" aria-label="The go-to-market loop: build the product, go to market, get feedback, and repeat.">
   <p class="gtm-label">The go-to-market loop</p>
@@ -19,13 +25,21 @@ layout: default
   <div class="gtm-return" aria-hidden="true"><span>↺ Repeat. The feedback shapes what you build next.</span></div>
 </div>
 
-## What I help with
+## Where I usually come in
 
 <div class="services">
   <div class="service"><h3>Market strategy</h3><p>Who you're really for, where they are, and why they'd choose you. The foundation everything else sits on.</p></div>
   <div class="service"><h3>Business model</h3><p>Shaping the model around how your customers actually buy, not how a template says they should.</p></div>
   <div class="service"><h3>Getting customers</h3><p>A focused plan to win your first customers, and a plan to keep them coming back.</p></div>
   <div class="service"><h3>Market feedback</h3><p>Getting your product in front of real people early, so you're building on what the market tells you.</p></div>
+</div>
+
+## You don't have to be ready
+
+You don't need traction, a finished product, a co-founder or a single marketing term in your vocabulary to reach out. If you've built something and you're not sure who it's for or how to get it in front of them, that's actually the best time to talk, because that's when your decisions are still cheap to change. The worst case is a short call where you leave with a clearer next step.
+
+<div class="actions">
+  <a class="button" href="https://calendar.app.google/g2ttvPG2wvmBxpqDA" target="_blank" rel="noopener">Book a call</a>
 </div>
 
 ## My story, short version
