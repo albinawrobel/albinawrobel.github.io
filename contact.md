@@ -6,7 +6,7 @@ permalink: /contact/
 ---
 
 
-# Let's find a time <span class="hl">to talk.</span>
+# Let's find a time to talk.
 
 <p class="lede">Book a call below, or email me with a bit about your startup and what you're working on.</p>
 

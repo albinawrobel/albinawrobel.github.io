@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="hero">
-<h1>Every business needs its own model. <span class="hl">I help you find yours.</span></h1>
+<h1>Every business needs its own model. I help you find yours.</h1>
 <p class="lede">I work with startups on their first go-to-market strategy, and help young builders get real feedback from the market so they can keep perfecting their craft.</p>
 </section>
 

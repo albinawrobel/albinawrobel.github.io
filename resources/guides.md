@@ -7,7 +7,7 @@ permalink: /resources/guides/
 
 <p class="back"><a href="{{ '/resources/' | relative_url }}">← Resources</a></p>
 
-# All <span class="hl">guides.</span>
+# All guides.
 
 {% include resource-sections.html %}
 

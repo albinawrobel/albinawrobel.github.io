@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 
-# Hi, I'm <span class="hl">Albina.</span>
+# Hi, I'm Albina.
 
 <p class="lede">I'm a growth marketer who learned by doing. Now I help startups figure out their first go-to-market strategy.</p>
 

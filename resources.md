@@ -5,7 +5,7 @@ description: Free, open-source articles on growth marketing and go-to-market str
 permalink: /resources/
 ---
 
-# Articles, tools, <span class="hl">and guides.</span>
+# Articles, tools, and guides.
 
 <p class="lede">Everything here is open source. Share it, quote it, make content from it, adapt it for your own work. I don't care as long as you make use of it.</p>
 
