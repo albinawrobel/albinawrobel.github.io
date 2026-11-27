@@ -10,7 +10,7 @@ tool: true
 
 <h1>Is it a product problem or a GTM problem?</h1>
 
-<p class="lede">An empty restaurant always leaves you with the same question: is the food bad, or does nobody know it's there? Your startup works the same way. Answer 10 quick questions and you'll see which one you're most likely dealing with.</p>
+<p class="lede">Not getting traction usually comes down to one of two things: the product isn't giving people a reason to stay, or the right people aren't finding it. Answer 10 quick questions to see which one you're most likely dealing with.</p>
 
 <div class="card quiz" id="quiz">
 
@@ -82,40 +82,39 @@ tool: true
     gtm: {
       title: "Probably a GTM problem.",
       body: [
-        "The food is good; people just can't find the restaurant. The people who try your product seem to stick around, which is the hardest part to fake, but not enough of the right people are walking through the door. That usually means your target, your message or your channel needs work.",
-        "The good news is that those are a lot faster to fix than a product. The tricky part is knowing which of the three is actually broken, because fixing the wrong one just means a nicer sign on a street nobody walks down."
+        "The people who try your product seem to stick around, which is the hardest part to fake, but not enough of the right people are finding it. That usually means your target, your message or your channel needs work.",
+        "The good news is that those are a lot faster to fix than a product. The tricky part is knowing which of the three is actually broken, because fixing the wrong one just burns time you could have spent on the right one."
       ],
       direct: true, extra: guide
     },
     product: {
       title: "Probably a product problem.",
       body: [
-        "People are finding the restaurant, but they aren't coming back for a second meal. Your targeting and message seem to be doing their job, so more marketing would likely just bring more people in to have the same meal and leave.",
-        "Most of the time, the fix starts with the people who left. Find out what they expected that they didn't get before you spend another dollar on getting people through the door."
+        "People are finding your product, but they aren't sticking around. Your targeting and message seem to be doing their job, so more marketing would likely just bring in more people who try it once and leave.",
+        "Most of the time, the fix starts with the people who left. Find out what they expected that they didn't get before you spend more time or money on getting new users."
       ],
       direct: false, extra: article
     },
     both: {
       title: "Probably both.",
       body: [
-        "Not many people are finding the restaurant, and the ones who do aren't coming back. I know, not the result you were hoping for; however, it's really common at this stage, and it's fixable if you go in the right order.",
-        "Fix the food first, because a bigger crowd at a restaurant people don't come back to just means more people who tried it once and won't again. Once the people who do come in start returning, that's your signal to work on the front door."
+        "Not many of the right people are finding your product, and the ones who do aren't sticking around. I know, not the result you were hoping for; however, it's really common at this stage, and it's fixable if you go in the right order.",
+        "Start with the product, because sending more people to something they don't come back to just means more people who tried it once and won't again. Once your first users start coming back, that's your signal to work on getting more of them in."
       ],
       direct: true, extra: null
     },
     depends: {
       title: "Honestly, it depends.",
       body: [
-        "Your answers point in a few directions at once, which usually means the problem is hiding in the details. Maybe the food is great for one table and wrong for the rest, or the sign out front is pulling in people who were looking for a different restaurant.",
-        "A quiz can't see those details, but a conversation can, and that's the part I'd want to dig into with you."
+        "Your answers point in a few directions at once, which usually means the problem is hiding in the details. Maybe the product works well for one type of user and not the rest, or your message is pulling in people who were looking for something else."
       ],
       direct: true, extra: null
     },
     data: {
       title: "Not enough data yet.",
       body: [
-        "You answered “not sure” to a lot of these, which is a result in itself; it's hard to know if the food is good when only a handful of people have eaten it.",
-        "Before you change the product or the marketing, get it in front of more of the right people and watch what they actually do. That's what turns this from a guess into a diagnosis."
+        "You answered “not sure” to a lot of these, which is a result in itself; it's hard to tell if a product works when only a handful of people have used it.",
+        "Before you change the product or the marketing, get it in front of more of the right people and watch what they actually do. That's what turns this from a guess into a clear answer."
       ],
       direct: false, extra: guide
     }
@@ -198,10 +197,10 @@ tool: true
     $("m-g-v").textContent = Math.round(g * 100) + "%";
 
     if (r.direct) {
-      $("r-cta-text").textContent = "This is exactly what a 15-minute call is for. Tell me what you're building, and we'll figure out where to start.";
+      $("r-cta-text").textContent = "If you're looking for more detail or a clearer answer, reach out and I'll point you in the right direction.";
       $("r-cta").textContent = "Book a free 15-min call";
     } else {
-      $("r-cta-text").textContent = "Want a stronger answer? Book a call and we'll verify it together with the details a quiz can't see.";
+      $("r-cta-text").textContent = "Want a stronger answer? Book a call to verify it, and I'll point you in the right direction.";
       $("r-cta").textContent = "Book a call to verify";
     }
 
