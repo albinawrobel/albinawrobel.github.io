@@ -6,9 +6,9 @@
 title: "Albina Wrobel"
 tagline: "Growth marketer helping tech startups go to market"
 description: >-   # 1–2 sentences. Google shows this in search results.
-  Albina Wrobel is a growth marketer helping startups find their first go-to-market strategy.
-  Free, open-source playbooks on the common GTM traps, how to avoid them,
-  and simple tools to run the numbers.
+  Albina Wrobel is a growth marketer who helps new founders take their startups to market
+  and find out if there's real demand for what they've built. Free, open-source GTM resources
+  and hands-on help, no marketing experience needed.
 
 url: "https://albinawrobel.github.io"   # Later, swap in your own domain.
 baseurl: ""
@@ -23,6 +23,11 @@ phone: ""                                # optional — we suggest leaving this 
 linkedin: ""                             # add your LinkedIn URL later
 github: "albinawrobel"
 twitter: ""                              # optional, e.g. yourhandle (no @)
+
+# Google Search Console: paste ONLY the code from your verification tag between the quotes.
+# Example tag: <meta name="google-site-verification" content="abc123" />  ->  google: "abc123"
+webmaster_verifications:
+  google: ""                             # <-- EDIT
 
 # ---------- You can leave everything below alone ----------
 lang: en

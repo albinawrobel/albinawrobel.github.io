@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
   {% feed_meta %}
+  {% if page.url == '/' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "url": "{{ site.url }}/",
+    "jobTitle": "Growth marketer",
+    "description": "Growth marketer who helps new founders take their startups to market and find out if there's real demand for what they've built.",
+    "knowsAbout": ["Go-to-market strategy", "Growth marketing", "Startup marketing", "Market validation"],
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "York University" },
+    "sameAs": [{% if site.github != "" %}"https://github.com/{{ site.github }}"{% endif %}{% if site.linkedin != "" %}, "{{ site.linkedin }}"{% endif %}]
+  }
+  </script>
+  {% endif %}
   <meta name="theme-color" content="#12161A">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
