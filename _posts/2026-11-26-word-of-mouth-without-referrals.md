@@ -1,5 +1,6 @@
 ---
 layout: post
+type: guide
 title: "How to Get Word of Mouth Without Asking for Referrals"
 description: "Asking for referrals is the weakest way to get word of mouth. Four research-backed ways to give users a story worth telling, with your startup in it."
 redirect_from:
