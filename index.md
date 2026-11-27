@@ -4,14 +4,17 @@ layout: default
 
 <section class="hero">
 <h1>Every business needs its own marketing model. I help you find yours.</h1>
-<p class="lede">I help new founders take what they've built to market, so they can find out what real people actually think of it and keep building from there.</p>
+<p class="lede">No marketing experience? Perfect. I help new founders take what they've built to market and find out if there's real demand for it.</p>
+<div class="actions">
+  <a class="button" href="https://calendar.app.google/g2ttvPG2wvmBxpqDA" target="_blank" rel="noopener">Book a call</a>
+</div>
 </section>
 
 ## Why I do this
 
 I started marketing at 15 with no idea what I was doing, and I learned by doing it with real customers. Most young founders I meet are in that same spot, but they're expected to show up with traction and a polished plan before anyone takes them seriously. I think that's backwards; feedback from the market is how you get traction, not something you're supposed to have before you start.
 
-What I want is to help people who are building cool things get them in front of the right people. That's why the playbook on this site is free and open source, so you can read it, share it, remix it or post it on social media. Hands-on help is there when you want someone in your corner for the parts a guide can't cover.
+What I want is to help people who are building cool things get them in front of the right people. That's why the resources on this site are free and open source, so you can read it, share it, remix it or post it on social media. Hands-on help is there when you want someone in your corner for the parts a guide can't cover.
 
 <div class="gtm" role="img" aria-label="The go-to-market loop: build the product, go to market, get feedback, and repeat.">
   <p class="gtm-label">The go-to-market loop</p>
