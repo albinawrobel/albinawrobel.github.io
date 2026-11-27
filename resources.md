@@ -5,7 +5,6 @@ description: Free, open-source articles on growth marketing and go-to-market str
 permalink: /resources/
 ---
 
-<p class="eyebrow">Resources</p>
 
 # Free <span class="hl">playbooks.</span>
 

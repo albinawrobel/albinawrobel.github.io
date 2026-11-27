@@ -3,7 +3,6 @@ layout: default
 ---
 
 <section class="hero">
-<p class="eyebrow">{{ site.author.name }} · Growth marketer</p>
 <h1>Every business needs its own model. <span class="hl">I help you find yours.</span></h1>
 <p class="lede">I work with startups on their first go-to-market strategy, and help young builders get real feedback from the market so they can keep perfecting their craft.</p>
 </section>

@@ -5,7 +5,6 @@ description: Albina Wrobel started growth marketing at 15, helping her mom's dog
 permalink: /about/
 ---
 
-<p class="eyebrow">About</p>
 
 # Hi, I'm <span class="hl">Albina.</span>
 

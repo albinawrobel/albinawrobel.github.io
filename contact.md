@@ -5,7 +5,6 @@ description: Book a call or email Albina Wrobel to talk about go-to-market strat
 permalink: /contact/
 ---
 
-<p class="eyebrow">Contact</p>
 
 # Let's find a time <span class="hl">to talk.</span>
 
