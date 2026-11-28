@@ -87,9 +87,7 @@ th, td { border-bottom:1px solid var(--line); padding:10px 12px; text-align:left
 /* ---------- boxes ---------- */
 .cta { margin-top:64px; padding:28px; background:var(--ink); color:var(--paper); border-radius:18px; }
 .cta p { margin-top:0; }
-.cta .button { box-shadow: 4px 4px 0 var(--purple-light); border-color: var(--paper); }
-.cta .button:hover { box-shadow: 6px 6px 0 var(--purple-light); }
-.cta .button:active { box-shadow: 2px 2px 0 var(--purple-light); }
+.cta .button, .cta .button:hover, .cta .button:active { box-shadow: none; border-color: var(--paper); transform: none; }
 .card { background:var(--card); border:2px solid var(--ink); border-radius:18px; padding:28px; margin:28px 0; box-shadow: 6px 6px 0 var(--green); }
 .contact-list { list-style:none; padding:0; margin:0; }
 .contact-list li { padding:14px 0; border-bottom:1px solid var(--line); font-size:20px; font-weight:600; }
