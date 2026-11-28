@@ -29,6 +29,10 @@ twitter: ""                              # optional, e.g. yourhandle (no @)
 webmaster_verifications:
   google: ""                             # <-- EDIT
 
+# Tracking. Paste each ID between the quotes. Leave "" to switch that tool off.
+ga4_id: "G-WZ3RKPBN3M"                               # <-- EDIT  Google Analytics "Measurement ID", looks like G-ABC123XYZ
+clarity_id: "zkj47w722l"                           # <-- EDIT  Microsoft Clarity "Project ID", looks like k8x2abc9de
+
 # ---------- You can leave everything below alone ----------
 lang: en
 timezone: America/Toronto
