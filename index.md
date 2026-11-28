@@ -4,7 +4,7 @@ layout: default
 
 <section class="hero">
 <h1>Every business needs its own marketing model. I help you find yours.</h1>
-<p class="lede">No marketing experience? Perfect. I help new founders take what they've built to market and find out if there's real demand for it.</p>
+<p class="lede">No marketing experience? Perfect. I help founders and builders take what they've made to market and find out if there's real demand for it.</p>
 <div class="actions">
   <a class="button" href="https://calendar.app.google/g2ttvPG2wvmBxpqDA" target="_blank" rel="noopener">Book a call</a>
 </div>
